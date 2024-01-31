@@ -16,3 +16,4 @@ A very lean Javascript Node.js boilerplate. This can be used for different proje
 
 `npm init -y`
 `npm install --save-dev eslint`
+`npm install --save-dev eslint-plugin-simple-import-sort`
