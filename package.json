@@ -2,7 +2,7 @@
   "name": "lean-js",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "./src/main.js",
   "scripts": {
     "start": "node ./src/main.js",
     "lint": "eslint ./src/",
