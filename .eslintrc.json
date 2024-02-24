@@ -1,28 +1,22 @@
 {
-    "env": {
-        "node": true,
-        "es6": true
-    },
-    "extends": [
-        "eslint:recommended",
-        "prettier" // prettier needs to be last
-    ],
-    "plugins": ["simple-import-sort"],
-    "root": true,
-    "rules": {
-        "quotes": [
-            "error",
-            "double"
-        ],
-        "semi": [
-            "error",
-            "always"
-        ],
-        "eol-last": [
-            "error",
-            "always"
-        ],
-        "simple-import-sort/imports": "error",
-        "simple-import-sort/exports": "error"
-    }
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 8
+  },
+  "extends": [
+    "eslint:recommended",
+    "prettier" // prettier needs to be last
+  ],
+  "plugins": ["simple-import-sort"],
+  "root": true,
+  "rules": {
+    "quotes": ["error", "double"],
+    "semi": ["error", "always"],
+    "eol-last": ["error", "always"],
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error"
+  }
 }
