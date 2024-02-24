@@ -16,7 +16,11 @@ A very lean Javascript Node.js boilerplate. This can be used for different proje
 ## Commands Used
 
 `npm init -y`
+
 `npm install --save-dev eslint`
+
 `npm install --save-dev eslint-plugin-simple-import-sort`
+
 `npm install --save-dev prettier`
+
 `npm install --save-dev eslint-config-prettier`
