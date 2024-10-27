@@ -1,4 +1,4 @@
-const crypto = require("node:crypto");
+import * as crypto from "node:crypto";
 
 function sha256Digest(message, encoding) {
   return crypto.createHash("sha256").update(message).digest(encoding);
