@@ -69,8 +69,9 @@ This can be used for different project purposes.
 
 - [Architecture Overview](./docs/ARCHITECTURE.md)
 - [Environment Configuration](./docs/ENVIRONMENT.md)
+- [Node.js Configuration]()
 - [Testing Guide](./docs/TESTING.md)
-- [Contribution Guidelines]
+- [Contribution Guidelines](./docs/CONTRIBUTING.md)
 - [Dependencies](./docs/DEPENDENCIES.md)
 - [Backlog](/docs/BACKLOG.md)
 
