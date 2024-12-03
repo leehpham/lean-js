@@ -67,6 +67,10 @@ This can be used for different project purposes.
 
 ## Documentation
 
+- [Architecture Overview](./docs/ARCHITECTURE.md)
+- [Environment Configuration](./docs/ENVIRONMENT.md)
+- [Testing Guide](./docs/TESTING.md)
+- [Contribution Guidelines]
 - [Dependencies](./docs/DEPENDENCIES.md)
 - [Backlog](/docs/BACKLOG.md)
 
