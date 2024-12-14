@@ -59,6 +59,7 @@ This can be used for different project purposes.
 
 ## Scripts
 
+- `npm run build`: Build the application. The output `.js` files will be in the `dist` folder.
 - `npm run start`: Start the application.
 - `npm run start:watch`: Start the application in watch mode.
   Use it when you're developing.
