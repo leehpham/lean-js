@@ -1,8 +1,7 @@
-import * as crypto from "node:crypto";
+const crypto = require("node:crypto");
 
-function sha256Digest(message, encoding) {
-  return crypto.createHash("sha256").update(message).digest(encoding);
-}
+const sha256Digest = (message, encoding) =>
+  crypto.createHash("sha256").update(message).digest(encoding);
 
 console.log(sha256Digest("Hello world!"));
 console.log(sha256Digest("Hello world!", "hex"));

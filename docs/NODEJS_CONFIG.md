@@ -28,5 +28,5 @@ This document explains the fields set in the `package.json` file.
 - `devDependencies`: Development dependencies.
   See [here](../docs/DEPENDENCIES.md) for details.
 - `type`: The module type (CommonJS/EJS) of `.js` files.
-  With the pervasive update of dependencies to use EJS in their code,
-  I set this to `"module"` (EJS).
+  Since some popular and important packages are still NOT fully supporting ESM (e.g. `jest`), 
+  we ignore this field and use CommonJS by default for now.
